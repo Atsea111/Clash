@@ -1,0 +1,40 @@
+#国内NAS系统服务
+#29条
+# 飞牛NAS（补充fnos.net）
+DOMAIN-SUFFIX,5ddd.com
+DOMAIN-SUFFIX,atsfea.com
+DOMAIN-SUFFIX,feiniunet.com
+DOMAIN-SUFFIX,fnos.net  # 飞牛NAS的核心服务域名（如系统更新、云同步）
+
+# 群晖NAS（补充）
+DOMAIN-SUFFIX,synology.com
+DOMAIN-SUFFIX,synology.cn
+DOMAIN-SUFFIX,synology.me
+DOMAIN-SUFFIX,quickconnect.to
+DOMAIN-SUFFIX,ddns.synology.com
+DOMAIN-SUFFIX,cloud.synology.com
+DOMAIN-SUFFIX,synologyusercontent.com
+DOMAIN-SUFFIX,synologydownload.com
+DOMAIN-SUFFIX,update.synology.com
+
+# 威联通NAS（补充）
+DOMAIN-SUFFIX,qnap.com
+DOMAIN-SUFFIX,qnap.cn
+DOMAIN-SUFFIX,myqnapcloud.com
+DOMAIN-SUFFIX,ddns.qnap.com
+DOMAIN-SUFFIX,cloud.qnap.com
+DOMAIN-SUFFIX,qnapdownload.com
+DOMAIN-SUFFIX,update.qnap.com
+DOMAIN-SUFFIX,qnapclub.eu
+
+# 极空间NAS
+DOMAIN-SUFFIX,zhinengshe.com
+DOMAIN-SUFFIX,geejayspace.com
+DOMAIN-SUFFIX,mygeejay.com
+DOMAIN-SUFFIX,cloud.geejayspace.com
+
+# 绿联NAS
+DOMAIN-SUFFIX,ugreen.com
+DOMAIN-SUFFIX,ugreencloud.com
+DOMAIN-SUFFIX,myugreen.com
+DOMAIN-SUFFIX,cloud.ugreen.com
