@@ -7,9 +7,9 @@
 #29条
 # 飞牛NAS（补充fnos.net）
 DOMAIN-SUFFIX,5ddd.com
+DOMAIN-SUFFIX,fnos.net
 DOMAIN-SUFFIX,atsfea.com
 DOMAIN-SUFFIX,feiniunet.com
-DOMAIN-SUFFIX,fnos.net
 
 # 群晖NAS（补充）
 DOMAIN-SUFFIX,synology.com
