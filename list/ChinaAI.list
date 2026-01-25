@@ -1,0 +1,132 @@
+# ====================== 国内AI厂商规则集 ======================
+# 内容: 国内主流AI工具、大模型平台、AI社交、垂直AI应用等全品类域名
+# 更新: 2026-01-25
+
+# -------------------- 综合AI大模型平台 --------------------
+# 豆包（抖音集团）
+DOMAIN-SUFFIX, doubao.com
+DOMAIN-SUFFIX, doubaoapp.com
+DOMAIN-SUFFIX, doubaocloud.com
+# 通义千问（阿里）
+DOMAIN-SUFFIX, tongyi.aliyun.com
+DOMAIN-SUFFIX, qwen.aliyun.com
+DOMAIN-SUFFIX, qwenlm.com
+# Kimi（月之暗面）
+DOMAIN-SUFFIX, kimi.moonshot.cn
+DOMAIN-SUFFIX, moonshot.cn
+# 智谱清言（智谱AI）
+DOMAIN-SUFFIX, zhipuai.cn
+DOMAIN-SUFFIX, chatglm.cn
+# 讯飞星火（科大讯飞）
+DOMAIN-SUFFIX, iflytek.com
+DOMAIN-SUFFIX, xinghuo.xfyun.cn
+DOMAIN-SUFFIX, xfyun.cn
+# 文心一言（百度）
+DOMAIN-SUFFIX, erniebot.com
+DOMAIN-SUFFIX, yiyan.baidu.com
+DOMAIN-SUFFIX, ai.baidu.com
+# 元宝（垂直办公AI）
+DOMAIN-SUFFIX, yuanbaoai.com
+DOMAIN-SUFFIX, yuanbaodoc.com
+# 天工（办公+音乐AI）
+DOMAIN-SUFFIX, tiangongai.com
+DOMAIN-SUFFIX, tiangongplatform.com
+
+# -------------------- 垂直AI绘画工具 --------------------
+# 哩布哩布
+DOMAIN-SUFFIX, liblibai.com
+DOMAIN-SUFFIX, liblib.cn
+# 无界AI
+DOMAIN-SUFFIX, wujiebaiyi.com
+# 秒画（美图）
+DOMAIN-SUFFIX, miaohuaai.com
+DOMAIN-SUFFIX, meituai.com
+# 触站AI
+DOMAIN-SUFFIX, chuzhanai.com
+# 腾讯云AI绘画
+DOMAIN-SUFFIX, ai.tencentcloud.com
+DOMAIN-SUFFIX, tencentcloudai.com
+# 图灵画师
+DOMAIN-SUFFIX, turingpainter.com
+# 6pen艺术
+DOMAIN-SUFFIX, 6pen.art
+# 触站AI
+DOMAIN-SUFFIX, chuzhanai.com
+
+# -------------------- AI办公协同工具 --------------------
+# WPS AI
+DOMAIN-SUFFIX, wps.cn
+DOMAIN-SUFFIX, wpsai.com
+# 飞书文档AI
+DOMAIN-SUFFIX, feishu.cn
+DOMAIN-SUFFIX, feishudoc.com
+# 天若AI
+DOMAIN-SUFFIX, tianruoai.com
+# 飞书妙记AI
+DOMAIN-SUFFIX, feishu-recorder.com
+# 腾讯会议AI纪要
+DOMAIN-SUFFIX, meeting.tencent.com
+DOMAIN-SUFFIX, tencentmeeting.com
+
+# -------------------- AI社交互动应用 --------------------
+# 口信（真人+AI社交）
+DOMAIN-SUFFIX, kouxinhudong.com
+DOMAIN-SUFFIX, kouxinaiapp.com
+# 小冰岛（虚拟角色社交）
+DOMAIN-SUFFIX, xiaobingdaoai.com
+DOMAIN-SUFFIX, xiaobingapp.com
+# 陪伴星球（情感陪伴AI）
+DOMAIN-SUFFIX, peibanxingqiu.com
+# 动漫星伴（IP虚拟社交）
+DOMAIN-SUFFIX, dongmanxingban.com
+# 智谱清言（AI对话）
+DOMAIN-SUFFIX, chatglmapp.com
+
+# -------------------- 大厂生态AI工具 --------------------
+# 阿里生态AI
+DOMAIN-SUFFIX, ai.dingtalk.com
+DOMAIN-SUFFIX, aliyunai.com
+# 腾讯生态AI
+DOMAIN-SUFFIX, hunyuan.tencent.com
+DOMAIN-SUFFIX, tencentcloudai.com
+# 字节跳动生态AI
+DOMAIN-SUFFIX, ai.bytedance.com
+DOMAIN-SUFFIX, ai.larksuite.com
+# 小米AI
+DOMAIN-SUFFIX, ai.mi.com
+DOMAIN-SUFFIX, mijiaai.com
+# 京东AI
+DOMAIN-SUFFIX, ai.jd.com
+DOMAIN-SUFFIX, jdai.com
+# 网易AI
+DOMAIN-SUFFIX, ai.163.com
+DOMAIN-SUFFIX, neteaseai.com
+
+# -------------------- AI开发者平台 --------------------
+# 阿里魔搭
+DOMAIN-SUFFIX, modelscope.cn
+# 百度AI Studio
+DOMAIN-SUFFIX, aistudio.baidu.com
+# 讯飞AI Studio
+DOMAIN-SUFFIX, aistudio.xfyun.cn
+# 腾讯AI开放平台
+DOMAIN-SUFFIX, tencentaiplat.com
+# 飞桨平台（百度）
+DOMAIN-SUFFIX, paddlepaddle.org
+DOMAIN-SUFFIX, paddlepaddle.com.cn
+
+# -------------------- 特色AI辅助工具 --------------------
+# 天若AI（排版辅助）
+DOMAIN-SUFFIX, tianruoai.com
+# 飞书妙记（会议AI）
+DOMAIN-SUFFIX, feishu-recorder.com
+# 腾讯会议AI
+DOMAIN-SUFFIX, meeting.tencent.com
+# 钉钉AI助手
+DOMAIN-SUFFIX, ai.dingtalk.com
+# 石墨文档AI
+DOMAIN-SUFFIX, shimowendang.com
+DOMAIN-SUFFIX, shimoai.com
+# 幕布AI
+DOMAIN-SUFFIX, mubu.com
+DOMAIN-SUFFIX, mubuai.com

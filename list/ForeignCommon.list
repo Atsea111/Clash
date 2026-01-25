@@ -1,0 +1,294 @@
+# ====================== 国外常用服务规则集（无流媒体） ======================
+# 内容: 社交/工具/大厂服务/服务器/域名厂商/办公/开发等
+# 
+# 更新: 2026-01-25
+
+# -------------------- 工具类服务（补充） --------------------
+DOMAIN-SUFFIX, vercel.com
+DOMAIN-SUFFIX, vercel.app
+DOMAIN-SUFFIX, vercel.dev
+DOMAIN-SUFFIX, vercel-storage.com
+DOMAIN-SUFFIX, notion.com
+DOMAIN-SUFFIX, notion.so
+DOMAIN-SUFFIX, notion.pub
+DOMAIN-SUFFIX, notionassets.com
+DOMAIN-SUFFIX, gitlab.com
+DOMAIN-SUFFIX, bitbucket.org
+DOMAIN-SUFFIX, npmjs.com
+DOMAIN-SUFFIX, pypi.org
+DOMAIN-SUFFIX, docker.com
+DOMAIN-SUFFIX, dockerhub.com
+DOMAIN-SUFFIX, stackblitz.com
+DOMAIN-SUFFIX, codesandbox.io
+DOMAIN-SUFFIX, postman.com
+DOMAIN-SUFFIX, insomnia.rest
+DOMAIN-SUFFIX, swagger.io
+DOMAIN-SUFFIX, redocly.com
+DOMAIN-SUFFIX, figma.com
+DOMAIN-SUFFIX, figmausercontent.com
+DOMAIN-SUFFIX, adobe.com (设计工具补充)
+DOMAIN-SUFFIX, canva.com
+DOMAIN-SUFFIX, picsart.com
+DOMAIN-SUFFIX, unsplash.com
+DOMAIN-SUFFIX, pexels.com
+DOMAIN-SUFFIX, pixabay.com
+
+# -------------------- 社交平台（补充） --------------------
+DOMAIN-SUFFIX, instagram.com
+DOMAIN-SUFFIX, instagr.am
+DOMAIN-SUFFIX, igcdn.com
+DOMAIN-SUFFIX, facebook.com
+DOMAIN-SUFFIX, fb.com
+DOMAIN-SUFFIX, meta.com
+DOMAIN-SUFFIX, fbcdn.net
+DOMAIN-SUFFIX, messenger.com
+DOMAIN-SUFFIX, whatsapp.com
+DOMAIN-SUFFIX, whatsapp.net
+DOMAIN-SUFFIX, linkedin.com
+DOMAIN-SUFFIX, linkedin.cn
+DOMAIN-SUFFIX, x.com
+DOMAIN-SUFFIX, twitter.com
+DOMAIN-SUFFIX, twimg.com
+DOMAIN-SUFFIX, snapchat.com
+DOMAIN-SUFFIX, snapcdn.com
+DOMAIN-SUFFIX, tiktok.com (国际版，非流媒体用途)
+DOMAIN-SUFFIX, tiktokcdn.com
+DOMAIN-SUFFIX, clubhouse.com
+DOMAIN-SUFFIX, reddit.com
+DOMAIN-SUFFIX, redditstatic.com
+DOMAIN-SUFFIX, discord.com
+DOMAIN-SUFFIX, discordapp.com
+DOMAIN-SUFFIX, discordcdn.com
+DOMAIN-SUFFIX, pinterest.com
+DOMAIN-SUFFIX, pinterest.net
+DOMAIN-SUFFIX, threads.net
+
+# -------------------- 大厂服务（补充） --------------------
+# 微软
+DOMAIN-SUFFIX, microsoft.com
+DOMAIN-SUFFIX, outlook.com
+DOMAIN-SUFFIX, onedrive.com
+DOMAIN-SUFFIX, office.com
+DOMAIN-SUFFIX, xbox.com
+DOMAIN-SUFFIX, skype.com
+DOMAIN-SUFFIX, teams.microsoft.com
+DOMAIN-SUFFIX, microsoft365.com
+DOMAIN-SUFFIX, azure.com
+DOMAIN-SUFFIX, bing.com
+# 苹果
+DOMAIN-SUFFIX, apple.com
+DOMAIN-SUFFIX, icloud.com
+DOMAIN-SUFFIX, appstore.com
+DOMAIN-SUFFIX, itunes.com
+DOMAIN-SUFFIX, mac.com
+DOMAIN-SUFFIX, appleid.apple.com
+DOMAIN-SUFFIX, appstoreconnect.apple.com
+DOMAIN-SUFFIX, developer.apple.com
+# Google（补充非流媒体）
+DOMAIN-SUFFIX, google.com
+DOMAIN-SUFFIX, googleapis.com
+DOMAIN-SUFFIX, gstatic.com
+DOMAIN-SUFFIX, googleusercontent.com
+DOMAIN-SUFFIX, firebase.google.com
+# Meta
+DOMAIN-SUFFIX, meta.com
+DOMAIN-SUFFIX, metacdn.com
+
+# -------------------- 搜索引擎（补充） --------------------
+DOMAIN-SUFFIX, duckduckgo.com
+DOMAIN-SUFFIX, yahoo.com
+DOMAIN-SUFFIX, yandex.com
+DOMAIN-SUFFIX, startpage.com
+DOMAIN-SUFFIX, searx.me
+DOMAIN-SUFFIX, qwant.com
+DOMAIN-SUFFIX, swisscows.com
+DOMAIN-SUFFIX, brave.com
+
+# -------------------- 电商平台（补充） --------------------
+DOMAIN-SUFFIX, amazon.com
+DOMAIN-SUFFIX, amazon.co.uk
+DOMAIN-SUFFIX, amazon.de
+DOMAIN-SUFFIX, ebay.com
+DOMAIN-SUFFIX, shopify.com
+DOMAIN-SUFFIX, etsy.com
+DOMAIN-SUFFIX, aliexpress.com (国际版)
+DOMAIN-SUFFIX, wish.com
+DOMAIN-SUFFIX, walmart.com
+DOMAIN-SUFFIX, target.com
+DOMAIN-SUFFIX, bestbuy.com
+DOMAIN-SUFFIX, asos.com
+DOMAIN-SUFFIX, zara.com
+DOMAIN-SUFFIX, hm.com
+DOMAIN-SUFFIX, shein.com
+DOMAIN-SUFFIX, temu.com
+
+# -------------------- 办公协作（补充） --------------------
+DOMAIN-SUFFIX, slack.com
+DOMAIN-SUFFIX, zoom.us
+DOMAIN-SUFFIX, asana.com
+DOMAIN-SUFFIX, trello.com
+DOMAIN-SUFFIX, monday.com
+DOMAIN-SUFFIX, notion.com
+DOMAIN-SUFFIX, airtable.com
+DOMAIN-SUFFIX, clickup.com
+DOMAIN-SUFFIX, notion.so
+DOMAIN-SUFFIX, basecamp.com
+DOMAIN-SUFFIX, teamviewer.com
+DOMAIN-SUFFIX, anydesk.com
+
+# -------------------- 云服务/CDN（补充） --------------------
+DOMAIN-SUFFIX, cloudflare.com
+DOMAIN-SUFFIX, cloudflare.net
+DOMAIN-SUFFIX, cloudflareworkers.com
+DOMAIN-SUFFIX, cloudflarestream.com
+DOMAIN-SUFFIX, fastly.com
+DOMAIN-SUFFIX, fastly.net
+DOMAIN-SUFFIX, akamai.com
+DOMAIN-SUFFIX, akamaihd.net
+DOMAIN-SUFFIX, cloudinary.com
+DOMAIN-SUFFIX, cloudinary.io
+DOMAIN-SUFFIX, jsdelivr.net
+DOMAIN-SUFFIX, unpkg.com
+DOMAIN-SUFFIX, cdnjs.com
+DOMAIN-SUFFIX, cloudfront.net (AWS CDN)
+DOMAIN-SUFFIX, bunny.net
+
+# -------------------- 服务器厂商（补充） --------------------
+DOMAIN-SUFFIX, aws.amazon.com
+DOMAIN-SUFFIX, amazonaws.com
+DOMAIN-SUFFIX, s3.amazonaws.com
+DOMAIN-SUFFIX, googlecloud.com
+DOMAIN-SUFFIX, cloud.google.com
+DOMAIN-SUFFIX, azure.com
+DOMAIN-SUFFIX, microsoftazure.com
+DOMAIN-SUFFIX, oracle.com
+DOMAIN-SUFFIX, oraclecloud.com
+DOMAIN-SUFFIX, hetzner.com
+DOMAIN-SUFFIX, hetzner.cloud
+DOMAIN-SUFFIX, vultr.com
+DOMAIN-SUFFIX, vultrusercontent.com
+DOMAIN-SUFFIX, linode.com
+DOMAIN-SUFFIX, linodeobjects.com
+DOMAIN-SUFFIX, digitalocean.com
+DOMAIN-SUFFIX, spacesdigitalocean.com
+DOMAIN-SUFFIX, ovh.com
+DOMAIN-SUFFIX, ovhcloud.com
+DOMAIN-SUFFIX, contabo.com
+DOMAIN-SUFFIX, scaleway.com
+DOMAIN-SUFFIX, rackspace.com
+DOMAIN-SUFFIX, liquidweb.com
+DOMAIN-SUFFIX, dreamhost.com
+DOMAIN-SUFFIX, hostgator.com
+DOMAIN-SUFFIX, bluehost.com
+DOMAIN-SUFFIX, a2hosting.com
+DOMAIN-SUFFIX, siteground.com
+DOMAIN-SUFFIX, inmotionhosting.com
+
+# -------------------- 域名厂商（补充） --------------------
+DOMAIN-SUFFIX, godaddy.com
+DOMAIN-SUFFIX, godaddy.net
+DOMAIN-SUFFIX, namecheap.com
+DOMAIN-SUFFIX, namecheap.net
+DOMAIN-SUFFIX, name.com
+DOMAIN-SUFFIX, enom.com
+DOMAIN-SUFFIX, networksolutions.com
+DOMAIN-SUFFIX, register.com
+DOMAIN-SUFFIX, domain.com
+DOMAIN-SUFFIX, bluehost.com
+DOMAIN-SUFFIX, hostgator.com
+DOMAIN-SUFFIX, dreamhost.com
+DOMAIN-SUFFIX, google.domains
+DOMAIN-SUFFIX, porkbun.com
+DOMAIN-SUFFIX, namebright.com
+DOMAIN-SUFFIX, dynadot.com
+
+# -------------------- 支付类（补充） --------------------
+DOMAIN-SUFFIX, paypal.com
+DOMAIN-SUFFIX, paypal.me
+DOMAIN-SUFFIX, stripe.com
+DOMAIN-SUFFIX, square.com
+DOMAIN-SUFFIX, payoneer.com
+DOMAIN-SUFFIX, wise.com
+DOMAIN-SUFFIX, revolut.com
+DOMAIN-SUFFIX, skrill.com
+DOMAIN-SUFFIX, neteller.com
+DOMAIN-SUFFIX, adyen.com
+DOMAIN-SUFFIX, worldpay.com
+
+# -------------------- 开发工具（补充） --------------------
+DOMAIN-SUFFIX, github.com
+DOMAIN-SUFFIX, github.io
+DOMAIN-SUFFIX, githubusercontent.com
+DOMAIN-SUFFIX, gitlab.com
+DOMAIN-SUFFIX, bitbucket.org
+DOMAIN-SUFFIX, npmjs.com
+DOMAIN-SUFFIX, yarnpkg.com
+DOMAIN-SUFFIX, pypi.org
+DOMAIN-SUFFIX, rubygems.org
+DOMAIN-SUFFIX, maven.org
+DOMAIN-SUFFIX, docker.com
+DOMAIN-SUFFIX, dockerhub.com
+DOMAIN-SUFFIX, kubernetes.io
+DOMAIN-SUFFIX, helm.sh
+DOMAIN-SUFFIX, terraform.io
+DOMAIN-SUFFIX, ansible.com
+DOMAIN-SUFFIX, jenkins.io
+DOMAIN-SUFFIX, gitpod.io
+DOMAIN-SUFFIX, codeberg.org
+DOMAIN-SUFFIX, sourceforge.net
+DOMAIN-SUFFIX, launchpad.net
+
+# -------------------- 学术/科研工具（补充） --------------------
+DOMAIN-SUFFIX, scholar.google.com
+DOMAIN-SUFFIX, researchgate.net
+DOMAIN-SUFFIX, zotero.org
+DOMAIN-SUFFIX, mendeley.com
+DOMAIN-SUFFIX, arxiv.org
+DOMAIN-SUFFIX, jstor.org
+DOMAIN-SUFFIX, sci-hub.se
+DOMAIN-SUFFIX, academia.edu
+DOMAIN-SUFFIX, pubmed.gov
+DOMAIN-SUFFIX, nature.com
+DOMAIN-SUFFIX, sciencemag.org
+DOMAIN-SUFFIX, ieee.org
+DOMAIN-SUFFIX, springer.com
+DOMAIN-SUFFIX, elsevier.com
+
+# -------------------- 其他常用服务（补充） --------------------
+DOMAIN-SUFFIX, dropbox.com
+DOMAIN-SUFFIX, box.com
+DOMAIN-SUFFIX, mega.nz
+DOMAIN-SUFFIX, we transfer.com
+DOMAIN-SUFFIX, wetransfer.net
+DOMAIN-SUFFIX, mediafire.com
+DOMAIN-SUFFIX, 4shared.com
+DOMAIN-SUFFIX, pastebin.com
+DOMAIN-SUFFIX, gist.github.com
+DOMAIN-SUFFIX, stackoverflow.com
+DOMAIN-SUFFIX, stackexchange.com
+DOMAIN-SUFFIX, quora.com
+DOMAIN-SUFFIX, medium.com
+DOMAIN-SUFFIX, dev.to
+DOMAIN-SUFFIX, hackernoon.com
+DOMAIN-SUFFIX, producthunt.com
+DOMAIN-SUFFIX, indiehackers.com
+DOMAIN-SUFFIX, github.com
+DOMAIN-SUFFIX, dribbble.com
+DOMAIN-SUFFIX, behance.net
+DOMAIN-SUFFIX, producthunt.com
+DOMAIN-SUFFIX, awwwards.com
+DOMAIN-SUFFIX, canva.com
+DOMAIN-SUFFIX, loom.com
+DOMAIN-SUFFIX, screencast-o-matic.com
+DOMAIN-SUFFIX, grammarly.com
+DOMAIN-SUFFIX, prowritingaid.com
+DOMAIN-SUFFIX, duolingo.com
+DOMAIN-SUFFIX, babbel.com
+DOMAIN-SUFFIX, rosetta stone.com
+DOMAIN-SUFFIX, lastpass.com
+DOMAIN-SUFFIX, 1password.com
+DOMAIN-SUFFIX, bitwarden.com
+DOMAIN-SUFFIX, nordvpn.com
+DOMAIN-SUFFIX, expressvpn.com
+DOMAIN-SUFFIX, surfshark.com
+DOMAIN-SUFFIX, cyberghostvpn.com
