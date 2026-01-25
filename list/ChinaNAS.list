@@ -9,7 +9,7 @@
 DOMAIN-SUFFIX,5ddd.com
 DOMAIN-SUFFIX,atsfea.com
 DOMAIN-SUFFIX,feiniunet.com
-DOMAIN-SUFFIX,fnos.net  # 飞牛NAS的核心服务域名（如系统更新、云同步）
+DOMAIN-SUFFIX,fnos.net
 
 # 群晖NAS（补充）
 DOMAIN-SUFFIX,synology.com
