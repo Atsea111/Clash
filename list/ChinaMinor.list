@@ -1,0 +1,31 @@
+# ====================== 国内 NAS & 冷门服务商规则集 ======================
+# 内容: 国内 NAS 及小众服务商域名
+# 更新: 2026-01-25
+
+# -------------------- 国内 NAS 服务商 --------------------
+DOMAIN-SUFFIX, qnap.cn
+DOMAIN-SUFFIX, synology.com.cn
+DOMAIN-SUFFIX, terramaster.cn
+DOMAIN-SUFFIX, asustor.com.cn
+DOMAIN-SUFFIX, zidoo.tv
+DOMAIN-SUFFIX, himedia.cn
+
+# -------------------- 国内冷门服务商 --------------------
+# IPXR
+DOMAIN-SUFFIX, ipxr.cn
+DOMAIN-SUFFIX, ipxr.net
+DOMAIN-SUFFIX, ipxrapi.com
+# 其他补充
+DOMAIN-SUFFIX, nas666.com
+DOMAIN-SUFFIX, nasbox.cn
+DOMAIN-SUFFIX, cloudnas.cn
+DOMAIN-SUFFIX, nascloud.cc
+DOMAIN-SUFFIX, naslife.cn
+DOMAIN-SUFFIX, nasstore.cn
+
+# -------------------- 局域网 NAS 域名 --------------------
+DOMAIN-SUFFIX, nas.local
+DOMAIN-SUFFIX, nas.lan
+DOMAIN-SUFFIX, qnap.local
+DOMAIN-SUFFIX, synology.local
+# =================================================================

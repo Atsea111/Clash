@@ -1,0 +1,93 @@
+# ====================== 国内媒体完整规则集 ======================
+# 内容: 中国媒体列表（含小红书、抖音、视频号等）
+# 部分参考:ACL4SSRd
+# 更新: 2026-01-25
+
+# -------------------- Bilibili 哔哩哔哩 --------------------
+DOMAIN, apiintl.biliapi.net
+DOMAIN, upos-hz-mirrorakam.akamaized.net
+DOMAIN-SUFFIX, acg.tv
+DOMAIN-SUFFIX, acgvideo.com
+DOMAIN-SUFFIX, b23.tv
+DOMAIN-SUFFIX, bigfun.cn
+DOMAIN-SUFFIX, bigfunapp.cn
+DOMAIN-SUFFIX, biliapi.com
+DOMAIN-SUFFIX, biliapi.net
+DOMAIN-SUFFIX, bilibili.com
+DOMAIN-SUFFIX, bilibili.tv
+DOMAIN-SUFFIX, biligame.com
+DOMAIN-SUFFIX, bilivideo.net
+DOMAIN-SUFFIX, bilivideo.cn
+DOMAIN-SUFFIX, bilivideo.com
+DOMAIN-SUFFIX, hdelb.com
+DOMAIN-SUFFIX, im9.com
+DOMAIN-SUFFIX, smtcdnns.net
+DOMAIN-SUFFIX, bilibiliapi.net
+DOMAIN-SUFFIX, biliapi.cn
+DOMAIN-SUFFIX, bilicdn.tcdn
+
+# -------------------- iQiyi 爱奇艺 --------------------
+DOMAIN, intel-cache.m.iqiyi.com
+DOMAIN, intel-cache.video.iqiyi.com
+DOMAIN, intl-rcd.iqiyi.com
+DOMAIN, intl-subscription.iqiyi.com
+DOMAIN-SUFFIX, inter.iqiyi.com
+DOMAIN-SUFFIX, inter.ptqy.gitv.tv
+DOMAIN-SUFFIX, intl.iqiyi.com
+DOMAIN-SUFFIX, iq.com
+IP-CIDR,23.40.241.251/32,no-resolve
+IP-CIDR,23.40.242.10/32,no-resolve
+IP-CIDR,103.44.56.0/23,no-resolve
+IP-CIDR,118.26.32.0/24,no-resolve
+IP-CIDR,118.26.120.0/24,no-resolve
+IP-CIDR,223.119.62.225/28,no-resolve
+URL-REGEX,^https?:\/\/int[\w-.]+iqiyi\.com
+DOMAIN-SUFFIX, iqiyi.com
+DOMAIN-SUFFIX, qiyi.com
+DOMAIN-SUFFIX, 71.com
+
+# -------------------- TencentVideo 腾讯视频 --------------------
+DOMAIN-SUFFIX, v.smtcdnns.com
+DOMAIN-SUFFIX, vv.video.qq.com
+DOMAIN-SUFFIX, v.qq.com
+DOMAIN-SUFFIX, qqvideo.tc.qq.com
+DOMAIN-SUFFIX, video.qq.com
+
+# -------------------- Youku 优酷 --------------------
+DOMAIN-SUFFIX, youku.com
+IP-CIDR,106.11.0.0/16,no-resolve
+DOMAIN-SUFFIX, youkuapi.com
+DOMAIN-SUFFIX, tudou.com
+
+# -------------------- 小红书 --------------------
+DOMAIN-SUFFIX, xiaohongshu.com
+DOMAIN-SUFFIX, xhscdn.com
+DOMAIN-SUFFIX, xhspic.com
+DOMAIN-SUFFIX, xhslink.com
+DOMAIN-SUFFIX, xiaohongshuapi.com
+
+# -------------------- 抖音/西瓜视频/今日头条 --------------------
+DOMAIN-SUFFIX, douyin.com
+DOMAIN-SUFFIX, ixigua.com
+DOMAIN-SUFFIX, toutiao.com
+DOMAIN-SUFFIX, amemv.com
+DOMAIN-SUFFIX, pstatp.com
+DOMAIN-SUFFIX, bytedance.com
+DOMAIN-SUFFIX, douyinpic.com
+
+# -------------------- 微信视频号 --------------------
+DOMAIN-SUFFIX, channels.weixin.qq.com
+DOMAIN-SUFFIX, weixin.qq.com
+DOMAIN-SUFFIX, wximg.com
+DOMAIN-SUFFIX, wxstatic.com
+
+# -------------------- 其他主流平台 --------------------
+# 芒果TV
+DOMAIN-SUFFIX, mgtv.com
+# 网易云音乐
+DOMAIN-SUFFIX, music.163.com
+# 腾讯新闻
+DOMAIN-SUFFIX, news.qq.com
+# 知乎
+DOMAIN-SUFFIX, zhihu.com
+# =================================================================

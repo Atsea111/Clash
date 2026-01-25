@@ -1,5 +1,9 @@
+# ====================== AI平台国外 完整规则集 ======================
 # 内容：内容：AI平台-国外
 # 数量：47条
+# 部分参考:ACL4SSRd
+# 更新: 2026-01-25
+
 DOMAIN-KEYWORD,anthropic
 DOMAIN-KEYWORD,claude
 DOMAIN-KEYWORD,openai
@@ -47,3 +51,4 @@ DOMAIN-SUFFIX,openaiapi-site.azureedge.net
 DOMAIN-SUFFIX,perplexity.ai
 DOMAIN-SUFFIX,sora.com
 DOMAIN-SUFFIX,x.ai
+DOMAIN-SUFFIX,lovart.ai

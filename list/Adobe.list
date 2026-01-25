@@ -1,0 +1,76 @@
+# ====================== Adobe 完整规则集 ======================
+# 内容: Adobe 相关域名
+# 数量: 52条
+# 部分参考:ACL4SSRd
+# 更新: 2026-01-25
+
+DOMAIN-KEYWORD, adobe
+DOMAIN, adobemedialibraryarebootprod2.112.2o7.net
+DOMAIN, cc-ext-prod-pkgs.s3.amazonaws.com
+DOMAIN-SUFFIX, acrobat.com
+DOMAIN-SUFFIX, adbecls1.net
+DOMAIN-SUFFIX, bam.nr-data.net
+DOMAIN-SUFFIX, behance.net
+DOMAIN-SUFFIX, businesscatalyst.com
+DOMAIN-SUFFIX, creativecloud.com
+DOMAIN-SUFFIX, ctldl.windowsupdate.com
+DOMAIN-SUFFIX, demandbase.com
+DOMAIN-SUFFIX, demdex.net
+DOMAIN-SUFFIX, digicert.com
+DOMAIN-SUFFIX, echochdn.com
+DOMAIN-SUFFIX, echosign.com
+DOMAIN-SUFFIX, edgefonts.net
+DOMAIN-SUFFIX, ftcdn.net
+DOMAIN-SUFFIX, geotrust.com
+DOMAIN-SUFFIX, globalsign.com
+DOMAIN-SUFFIX, godaddy.com
+DOMAIN-SUFFIX, macromedia.com
+DOMAIN-SUFFIX, newrelic.com
+DOMAIN-SUFFIX, omniroot.com
+DOMAIN-SUFFIX, omnitdc.com
+DOMAIN-SUFFIX, omnitdc.net
+DOMAIN-SUFFIX, photoshop.com
+DOMAIN-SUFFIX, symantec.com
+DOMAIN-SUFFIX, symcb.com
+DOMAIN-SUFFIX, symcd.com
+DOMAIN-SUFFIX, thywte.com
+DOMAIN-SUFFIX, typekit.com
+DOMAIN-SUFFIX, typekit.net
+DOMAIN-SUFFIX, verisign.com
+DOMAIN-SUFFIX, worldsecuresystems.com
+
+# 补充：Adobe 核心服务域名
+DOMAIN-SUFFIX, adobe.com
+DOMAIN-SUFFIX, adobesc.com
+DOMAIN-SUFFIX, adobelogin.com
+DOMAIN-SUFFIX, adobedc.net
+DOMAIN-SUFFIX, adobe.io
+DOMAIN-SUFFIX, adobedtm.com
+DOMAIN-SUFFIX, adobeaemcloud.com
+DOMAIN-SUFFIX, adobelabs.com
+DOMAIN-SUFFIX, adobeprerelease.com
+DOMAIN-SUFFIX, adobeprimetime.com
+DOMAIN-SUFFIX, adobereader.com
+DOMAIN-SUFFIX, adobestock.com
+DOMAIN-SUFFIX, aemassets.com
+DOMAIN-SUFFIX, aemcloud.com
+DOMAIN-SUFFIX, aemexperiencecloud.com
+DOMAIN-SUFFIX, analytics.adobe.com
+DOMAIN-SUFFIX, experienceleague.adobe.com
+DOMAIN-SUFFIX, firefly.adobe.com
+DOMAIN-SUFFIX, fonts.adobe.com
+DOMAIN-SUFFIX, lightroom.adobe.com
+DOMAIN-SUFFIX, mixpanel.com
+DOMAIN-SUFFIX, stock.adobe.com
+DOMAIN-SUFFIX, teradici.com
+DOMAIN-SUFFIX, xd.adobe.com
+
+# 补充：CDN 与分发域名
+DOMAIN-SUFFIX, adobedtm.net
+DOMAIN-SUFFIX, adobedtm.org
+DOMAIN-SUFFIX, adobecdn.com
+DOMAIN-SUFFIX, adobecdn.net
+DOMAIN-SUFFIX, adobeanalytics.com
+DOMAIN-SUFFIX, adobelaunch.com
+DOMAIN-SUFFIX, adobemarketingcloud.com
+# =================================================================

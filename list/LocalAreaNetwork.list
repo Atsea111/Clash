@@ -1,0 +1,81 @@
+# ====================== 本地/局域网完整规则集 ======================
+# 内容: 本地/局域网地址（含补充规则）
+# 部分参考: https://en.wikipedia.org/wiki/Reserved_IP_addresses
+# 部分参考:ACL4SSRd
+# 更新: 2026-01-25
+
+DOMAIN-SUFFIX, acl4.ssr
+
+# 本地/局域网地址（原始规则保留）
+DOMAIN-SUFFIX, ip6-localhost
+DOMAIN-SUFFIX, ip6-loopback
+DOMAIN-SUFFIX, internal
+DOMAIN-SUFFIX, lan
+DOMAIN-SUFFIX, local
+DOMAIN-SUFFIX, localhost
+IP-CIDR,0.0.0.0/8,no-resolve
+IP-CIDR,10.0.0.0/8,no-resolve
+IP-CIDR,100.64.0.0/10,no-resolve
+IP-CIDR,127.0.0.0/8,no-resolve
+IP-CIDR,169.254.0.0/16,no-resolve
+IP-CIDR,172.16.0.0/12,no-resolve
+IP-CIDR,192.168.0.0/16,no-resolve
+IP-CIDR,198.18.0.0/16,no-resolve
+IP-CIDR,224.0.0.0/4,no-resolve
+IP-CIDR6,::1/128,no-resolve
+IP-CIDR6,fe80::/10,no-resolve
+IP-CIDR6,fd00::/8,no-resolve
+
+# 补充：常见局域网域名
+DOMAIN-SUFFIX, home
+DOMAIN-SUFFIX, localdomain
+DOMAIN-SUFFIX, localnet
+DOMAIN-SUFFIX, corp
+DOMAIN-SUFFIX, internal
+DOMAIN-SUFFIX, lan
+DOMAIN-SUFFIX, router
+DOMAIN-SUFFIX, gateway
+DOMAIN-SUFFIX, nas
+DOMAIN-SUFFIX, printer
+DOMAIN-SUFFIX, camera
+DOMAIN-SUFFIX, iot
+
+# 补充：特殊保留IP段
+IP-CIDR,192.0.0.0/24,no-resolve      # IANA 保留地址
+IP-CIDR,192.0.2.0/24,no-resolve      # 测试用地址（RFC 5737）
+IP-CIDR,198.51.100.0/24,no-resolve   # 测试用地址（RFC 5737）
+IP-CIDR,203.0.113.0/24,no-resolve    # 测试用地址（RFC 5737）
+IP-CIDR,233.252.0.0/24,no-resolve    # 多播测试地址（RFC 5771）
+
+# Router managed 路由器管理域名（原始规则保留）
+DOMAIN, instant.arubanetworks.com
+DOMAIN, setmeup.arubanetworks.com
+DOMAIN, router.asus.com
+DOMAIN-SUFFIX, www.asusrouter.com
+DOMAIN-SUFFIX, hiwifi.com
+DOMAIN-SUFFIX, leike.cc
+DOMAIN-SUFFIX, miwifi.com
+DOMAIN-SUFFIX, my.router
+DOMAIN-SUFFIX, p.to
+DOMAIN-SUFFIX, peiluyou.com
+DOMAIN-SUFFIX, phicomm.me
+DOMAIN-SUFFIX, router.ctc
+DOMAIN-SUFFIX, routerlogin.com
+DOMAIN-SUFFIX, tendawifi.com
+DOMAIN-SUFFIX, zte.home
+DOMAIN-SUFFIX, tplogin.cn
+DOMAIN-SUFFIX, wifi.cmcc
+
+# 补充：更多路由器管理域名
+DOMAIN-SUFFIX, routerlogin.net
+DOMAIN-SUFFIX, tenda.cn
+DOMAIN-SUFFIX, dlinkrouter.local
+DOMAIN-SUFFIX, dlink.com
+DOMAIN-SUFFIX, tp-link.net
+DOMAIN-SUFFIX, tp-link.com
+DOMAIN-SUFFIX, mercusys.com
+DOMAIN-SUFFIX, tpwifi.net
+DOMAIN-SUFFIX, huawei.com
+DOMAIN-SUFFIX, huaweihome.com
+DOMAIN-SUFFIX, 360wifi.com
+# =================================================================
