@@ -1,0 +1,96 @@
+# ====================== 国内NAS服务完整规则集 ======================
+# 内容: 国内主流NAS品牌（飞牛、群晖、威联通、极空间、绿联等）核心域名
+# 更新: 2026-01-25
+# 用途: 确保国内NAS设备远程访问、同步、更新等服务走国内直连，提升稳定性
+
+# -------------------- 飞牛NAS（fnNAS） --------------------
+# 飞牛系统及服务核心域名
+DOMAIN-SUFFIX,5ddd.com
+DOMAIN-SUFFIX,fnos.net
+DOMAIN-SUFFIX,atsfea.com
+DOMAIN-SUFFIX,feiniunet.com
+# 飞牛云同步与管理域名
+DOMAIN-SUFFIX,fnnas.com
+DOMAIN-SUFFIX,fnnas.net
+DOMAIN-SUFFIX,cloud.fnnas.com
+DOMAIN-SUFFIX,update.fnnas.com
+
+# -------------------- 群晖NAS（Synology） --------------------
+# 群晖全球及国内官方域名
+DOMAIN-SUFFIX,synology.com
+DOMAIN-SUFFIX,synology.cn
+DOMAIN-SUFFIX,synology.me
+# 群晖远程访问与DDNS域名
+DOMAIN-SUFFIX,quickconnect.to
+DOMAIN-SUFFIX,ddns.synology.com
+# 群晖云服务与同步域名
+DOMAIN-SUFFIX,cloud.synology.com
+DOMAIN-SUFFIX,synologyusercontent.com
+# 群晖下载与更新域名
+DOMAIN-SUFFIX,synologydownload.com
+DOMAIN-SUFFIX,update.synology.com
+# 群晖社区与插件域名
+DOMAIN-SUFFIX,qnapclub.eu
+DOMAIN-SUFFIX,synologycommunity.com
+
+# -------------------- 威联通NAS（QNAP） --------------------
+# 威联通全球及国内官方域名
+DOMAIN-SUFFIX,qnap.com
+DOMAIN-SUFFIX,qnap.cn
+# 威联通远程访问与DDNS域名
+DOMAIN-SUFFIX,myqnapcloud.com
+DOMAIN-SUFFIX,ddns.qnap.com
+# 威联通云服务与同步域名
+DOMAIN-SUFFIX,cloud.qnap.com
+# 威联通下载与更新域名
+DOMAIN-SUFFIX,qnapdownload.com
+DOMAIN-SUFFIX,update.qnap.com
+
+# -------------------- 极空间NAS（Geejay） --------------------
+# 极空间系统及服务核心域名
+DOMAIN-SUFFIX,zhinengshe.com
+DOMAIN-SUFFIX,geejayspace.com
+# 极空间远程访问与云服务域名
+DOMAIN-SUFFIX,mygeejay.com
+DOMAIN-SUFFIX,cloud.geejayspace.com
+# 极空间更新与资源域名
+DOMAIN-SUFFIX,update.geejayspace.com
+DOMAIN-SUFFIX,resource.geejayspace.com
+
+# -------------------- 绿联NAS（UGREEN） --------------------
+# 绿联全球及国内官方域名
+DOMAIN-SUFFIX,ugreen.com
+DOMAIN-SUFFIX,ugreen.cn
+# 绿联云服务与远程访问域名
+DOMAIN-SUFFIX,ugreencloud.com
+DOMAIN-SUFFIX,myugreen.com
+DOMAIN-SUFFIX,cloud.ugreen.com
+# 绿联更新与同步域名
+DOMAIN-SUFFIX,update.ugreen.com
+DOMAIN-SUFFIX,sync.ugreencloud.com
+
+# -------------------- 其他国内NAS品牌 --------------------
+# 铁威马（TerraMaster）
+DOMAIN-SUFFIX,terramaster.com
+DOMAIN-SUFFIX,terramaster.cn
+DOMAIN-SUFFIX,myterramaster.com
+# 华芸（Asustor）
+DOMAIN-SUFFIX,asustor.com
+DOMAIN-SUFFIX,asustor.com.cn
+DOMAIN-SUFFIX,aidrive.asustor.com
+# 海康威视（Hikvision）
+DOMAIN-SUFFIX,hikvision.com
+DOMAIN-SUFFIX,hikvisionnas.com
+DOMAIN-SUFFIX,cloud.hikvisionnas.com
+
+# -------------------- NAS通用服务（国内） --------------------
+# 国内NAS相关工具与社区域名
+DOMAIN-SUFFIX,nas666.com
+DOMAIN-SUFFIX,nasbox.cn
+DOMAIN-SUFFIX,cloudnas.cn
+DOMAIN-SUFFIX,nasfans.com
+DOMAIN-SUFFIX,nas123.com
+# 国内NAS同步与备份工具域名
+DOMAIN-SUFFIX,syncthing.cn
+DOMAIN-SUFFIX,rsync.net.cn
+DOMAIN-SUFFIX,backblaze.cn（国内节点）
