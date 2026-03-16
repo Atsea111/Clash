@@ -2,8 +2,9 @@
 # 内容：内容：AI平台-国外
 # 数量：48条
 # 部分参考:ACL4SSRd
-# 更新: 2026-01-25
+# 更新: 2026-03-16
 
+DOMAIN-SUFFIX, qwen.ai
 DOMAIN-KEYWORD,anthropic
 DOMAIN-KEYWORD,claude
 DOMAIN-KEYWORD,openai
