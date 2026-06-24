@@ -1,7 +1,7 @@
-# ====================== 国内媒体完整规则集 ======================
+# ====================== 大陆内媒体完整规则集 ======================
 # 内容: 中国媒体列表（含小红书、抖音、视频号等）
 # 部分参考:ACL4SSRd
-# 更新: 2026-01-25
+# 更新: 2026-6-24
 
 # -------------------- Bilibili 哔哩哔哩 --------------------
 DOMAIN, apiintl.biliapi.net
@@ -14,7 +14,7 @@ DOMAIN-SUFFIX, bigfunapp.cn
 DOMAIN-SUFFIX, biliapi.com
 DOMAIN-SUFFIX, biliapi.net
 DOMAIN-SUFFIX, bilibili.com
-DOMAIN-SUFFIX, bilibili.tv
+# DOMAIN-SUFFIX, bilibili.tv
 DOMAIN-SUFFIX, biligame.com
 DOMAIN-SUFFIX, bilivideo.net
 DOMAIN-SUFFIX, bilivideo.cn
