@@ -1,7 +1,7 @@
 # ====================== 国外常用服务规则集（无流媒体） ======================
 # 内容: 社交/工具/大厂服务/服务器/域名厂商/办公/开发等
 # 
-# 更新: 2026-03-16
+# 更新: 2026-07-06
 
 # -------------------- 工具类服务（补充） --------------------
 DOMAIN-SUFFIX, vercel.com
@@ -75,15 +75,7 @@ DOMAIN-SUFFIX, teams.microsoft.com
 DOMAIN-SUFFIX, microsoft365.com
 DOMAIN-SUFFIX, azure.com
 DOMAIN-SUFFIX, bing.com
-# 苹果
-DOMAIN-SUFFIX, apple.com
-DOMAIN-SUFFIX, icloud.com
-DOMAIN-SUFFIX, appstore.com
-DOMAIN-SUFFIX, itunes.com
-DOMAIN-SUFFIX, mac.com
-DOMAIN-SUFFIX, appleid.apple.com
-DOMAIN-SUFFIX, appstoreconnect.apple.com
-DOMAIN-SUFFIX, developer.apple.com
+
 # Google（补充非流媒体）
 DOMAIN-SUFFIX, google.com
 DOMAIN-SUFFIX, googleapis.com

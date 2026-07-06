@@ -1,6 +1,6 @@
 # ====================== 大陆外媒体完整规则集 ======================
 # 内容：大陆外媒体列表
-# 更新：2026-6-24 
+# 更新：2026-07-06 
 # 数量：415条
 # ------------------------------------------------------------
 
@@ -49,13 +49,7 @@ DOMAIN-SUFFIX,pv-cdn.net
 DOMAIN-SUFFIX,seattlespheres.com
 URL-REGEX,^https?:\/\/www\.amazon\.com\/(Amazon-Video|gp\/video)\/
 
-# AppleNews
-DOMAIN,gspe1-ssl.ls.apple.com
 
-# AppleTV
-DOMAIN,np-edge.itunes.apple.com
-DOMAIN,play-edge.itunes.apple.com
-DOMAIN-SUFFIX,tv.apple.com
 
 # BBCiPlayer
 DOMAIN-KEYWORD,bbcfmt
