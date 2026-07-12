@@ -1,6 +1,6 @@
 # ====================== 国内AI厂商规则集 ======================
 # 内容: 国内主流AI工具、大模型平台、AI社交、垂直AI应用等全品类域名
-# 更新: 2026-03-16
+# 更新: 2026-07-13
 
 # -------------------- 综合AI大模型平台 --------------------
 # 豆包（抖音集团）
@@ -36,6 +36,7 @@ DOMAIN-SUFFIX, tiangongplatform.com
 # 哩布哩布
 DOMAIN-SUFFIX, liblibai.com
 DOMAIN-SUFFIX, liblib.cn
+DOMAIN-SUFFIX, liblib.art
 # 无界AI
 DOMAIN-SUFFIX, wujiebaiyi.com
 # 秒画（美图）
